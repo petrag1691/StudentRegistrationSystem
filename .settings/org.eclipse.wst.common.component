@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="OnlineRegistrationSystem-Final">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mysql-connector-java-5.0.8-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.0.8-bin/mysql-connector-java-5.0.8-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="taglibs-standard-impl-1.2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/taglibs-standard-impl-1.2.5/taglibs-standard-impl-1.2.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="taglibs-standard-spec-1.2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/taglibs-standard-spec-1.2.5/taglibs-standard-spec-1.2.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="taglibs-standard-jstlel-1.2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/taglibs-standard-jstlel-1.2.5/taglibs-standard-jstlel-1.2.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="OnlineRegistrationSystem-Final"/>
+        <property name="java-output-path" value="/OnlineRegistrationSystem-Final/build/classes"/>
+    </wb-module>
+</project-modules>
